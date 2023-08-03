@@ -1,0 +1,122 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+body {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  line-height: 15px;
+  letter-spacing: normal;
+  word-spacing: 3px;
+}
+
+h1,
+h2 {
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+* {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+section p {
+  text-indent: 20px;
+}
+
+a {
+  color: #a66;
+}
+
+li {
+  line-height: 20px;
+}
+
+section ul li {
+  list-style-type: square;
+}
+
+section ol li {
+  list-style-type: lower-latin;
+}
+
+aside ul li {
+  list-style-type: square;
+}
+
+nav ul li {
+  list-style-type: none;
+  line-height: 60px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav li {
+  text-align: center;
+  border: 2px solid #a66;
+  margin-bottom: 15px;
+}
+
+a[href*="http"] {
+  background: url("external-link-52.png") no-repeat 100% 0;
+  background-size: 15px 15px;
+  padding-right: 19px;
+}
